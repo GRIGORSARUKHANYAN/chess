@@ -1,9 +1,10 @@
 import './App.css';
+import Chessboard from './compnents/Chessboard';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="app center">
+      <Chessboard />
     </div>
   );
 }
