@@ -1,0 +1,11 @@
+.square {
+  --size: 100px;
+  width: var(--size);
+  height: var(--size);
+}
+.blackSquare {
+  background: var(--blackSquare);
+}
+.whiteSquare {
+  background: var(--whiteSquare);
+}
