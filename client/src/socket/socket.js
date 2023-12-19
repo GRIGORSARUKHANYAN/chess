@@ -1,5 +1,8 @@
 import io from "socket.io-client";
-const socket = io.connect("http://localhost:3001");
+import API from "../api/api";
+
+const socket = io.connect(API.host);
+
+// functions 
 
 export default socket;
-
